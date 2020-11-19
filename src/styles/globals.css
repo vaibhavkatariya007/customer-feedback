@@ -14,3 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.ant-rate-star-first,
+.ant-rate-star-second {
+  color: #c5c5c5;
+}
+.ant-rate {
+  color: #ffdd00;
+  font-size: 50px;
+}

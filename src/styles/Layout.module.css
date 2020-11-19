@@ -1,0 +1,54 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  padding: 20px;
+}
+.header {
+  color: #ffffff;
+  background: #0774dc;
+  padding: 0 25px;
+}
+.userprofile {
+  width: auto;
+  display: flex;
+  float: right;
+}
+.userprofile > img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+  top: 15px;
+  margin-right: 10px;
+}
+.userprofile > button {
+  background-color: rgb(255 255 255);
+  color: rgb(7 116 220);
+  border: 0;
+  height: 64px;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 100px;
+}
+.footer {
+  color: #ffffff;
+  background: #0774dc;
+  padding: 25px;
+}
+.header > a {
+  border: 1px solid #ffffff;
+  padding: 5px;
+  background-color: #fff;
+  position: relative;
+  left: 25%;
+}
+.header > span {
+  margin-right: 5px;
+}
+
+.homeLink {
+  cursor: pointer;
+}
